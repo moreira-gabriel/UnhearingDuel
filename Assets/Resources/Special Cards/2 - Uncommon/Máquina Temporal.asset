@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d839ecab9e052b43bd723321218daff, type: 3}
+  m_Name: "M\xE1quina Temporal"
+  m_EditorClassIdentifier: 
+  cardNamePortuguese: "M\xE1quina Temporal"
+  cardNameEnglish: Weather Machine
+  attackAttribute: 0
+  resistanceAttribute: 0
+  defenseAttribute: 0
+  healthAttribute: 0
+  descriptionPortuguese: "Serve para ativar as cartas temporais. Deve ser usada em
+    conjunto com a carta temporal desejada e n\xE3o precisa ser trocada ou reativada
+    para mudar a carta temporal em a\xE7\xE3o."
+  descriptionEnglish: It serves to activate the weather cards. It must be used in
+    conjunction with the desired time card and does not need to be changed or reactivated
+    to change the time card in action.
+  anotherCardIsNeeded: 0
+  cardSupport: {fileID: 0}
+  cardPrefab: {fileID: 7266242157754681029, guid: 52b1cb7784466ce4b82ae484577da4e9, type: 3}
+  textureField: {fileID: 2800000, guid: 29f6b219159ce0a4d950eaea550ccae2, type: 3}
+  frameField: {fileID: 2800000, guid: f780a43f9338fe945984171df8ff534d, type: 3}
+  cardType: 4

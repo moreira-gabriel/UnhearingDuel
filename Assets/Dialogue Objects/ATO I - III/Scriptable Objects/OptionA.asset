@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34b3149a058b15248b9d8331f6d01c87, type: 3}
+  m_Name: OptionA
+  m_EditorClassIdentifier: 
+  sentence: 
+  dialogues:
+  - actorName: 0 - John
+    actorSprite: {fileID: 2348307691353316420, guid: a6059c220af9cc444b3bf9f7e1769cef, type: 3}
+    sentence:
+      portuguese: "Tudo bem ent\xE3o ! At\xE9 a pr\xF3xima."
+      english: 'Okay then ! To the next. '

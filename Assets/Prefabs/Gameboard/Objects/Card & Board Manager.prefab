@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3357361130750331583
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3357361130750331569}
+  - component: {fileID: 3357361130750331568}
+  - component: {fileID: 3357361130750331570}
+  m_Layer: 2
+  m_Name: Card & Board Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3357361130750331569
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3357361130750331583}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3357361130750331568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3357361130750331583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5acde9ecb7db9d848a44c30345f88808, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlitghtPanel: {fileID: 0}
+  itsTutorial: 0
+  slotsSoldierCards:
+  - slotName: L1 - CARD 1
+    slotEquipmentCard: {fileID: 3693196401413584861, guid: e0d519d49a489e34485f39ae32a734c4, type: 3}
+    slotSoldierCard: {fileID: 1830355566808599731, guid: 6b81914a459532e43931fdb1553da45c, type: 3}
+    slotMasks: {fileID: 0}
+  - slotName: L1 - CARD2
+    slotEquipmentCard: {fileID: 7381257148358019152, guid: b2007f0922264264aa603d1ebc26581a, type: 3}
+    slotSoldierCard: {fileID: 6093528034157043558, guid: c9f74c7941e6bb74bbad6f8d233ebf29, type: 3}
+    slotMasks: {fileID: 0}
+  - slotName: L1 - CARD3
+    slotEquipmentCard: {fileID: 5089579772830340439, guid: 45f1a1cab200e47488c5a886d81212db, type: 3}
+    slotSoldierCard: {fileID: 3281088070671811204, guid: f9595f970973b0a48b455936027e1c14, type: 3}
+    slotMasks: {fileID: 0}
+  - slotName: L2 - CARD1
+    slotEquipmentCard: {fileID: 6624105576409900175, guid: afb571bd92bf9c24fb64fd5f0508bb1a, type: 3}
+    slotSoldierCard: {fileID: 5744918534682904675, guid: d2aa49066c1f52e4ca5cc4f90ebac610, type: 3}
+    slotMasks: {fileID: 0}
+  - slotName: L2 - CARD2
+    slotEquipmentCard: {fileID: 1008679370931985943, guid: e53f1e2ff16aa9e418d3bb3bb5cc977c, type: 3}
+    slotSoldierCard: {fileID: 1822131136531451554, guid: df05d4e2d0d1cfa4f899a450e02f6f73, type: 3}
+    slotMasks: {fileID: 0}
+  slotsEspecialCards:
+  - slotName: Suporte
+    slot: {fileID: 3636509085836496297, guid: e7e025280c7ac5a40b9514d377d7740f, type: 3}
+    slotMasks: {fileID: 0}
+  - slotName: Temporal
+    slot: {fileID: 7731097111893544435, guid: fcae99806773ac44eae489830ea9ba8f, type: 3}
+    slotMasks: {fileID: 0}
+--- !u!114 &3357361130750331570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3357361130750331583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c1e87ccc2de79843960dfbdc53713b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameBoardList: {fileID: 620664945910476198, guid: 13b8bbaa1fe49894e8970e4f6f852992, type: 3}

@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34b3149a058b15248b9d8331f6d01c87, type: 3}
+  m_Name: OptionB
+  m_EditorClassIdentifier: 
+  sentence: 
+  dialogues:
+  - actorName: 0 - John
+    actorSprite: {fileID: 2348307691353316420, guid: a6059c220af9cc444b3bf9f7e1769cef, type: 3}
+    sentence:
+      portuguese: "Ent\xE3o deixa eu te explicar, n\xE3o \xE9 t\xE3o dif\xEDcil,
+        mas tem muita coisa para dizer. O Deck inicial de batalha que voc\xEA acabou
+        de comprar cont\xE9m 40 cartas, \xE9 a mesma quantidade que pode ser utilizada
+        em batalha. Atualmente existem 250 cartas ao todo. (Mais cartas ser\xE3o
+        adicionadas todo m\xEAs)"
+      english: ' So let me explain, it''s not that difficult, but there''s a lot
+        to say. The Battle Starter Deck you just purchased contains 40 cards, the
+        same amount that can be used in battle. There are currently 250 cards in
+        total. (More cards will be added every month)'
+  - actorName: 1 - John
+    actorSprite: {fileID: 2348307691353316420, guid: a6059c220af9cc444b3bf9f7e1769cef, type: 3}
+    sentence:
+      portuguese: "Elas est\xE3o divididas da seguinte forma: 100 cartas soldado,
+        5 cartas Temporal, 45 cartas Suporte, 90 cartas Equipamento, 10 Cartas Especiais."
+      english: 'They are divided as follows: 100 Soldier cards, 5 Temporal cards,
+        45 Support cards, 90 Equipment cards, 10 Special Cards.'
+  - actorName: 2 - John
+    actorSprite: {fileID: 2348307691353316420, guid: a6059c220af9cc444b3bf9f7e1769cef, type: 3}
+    sentence:
+      portuguese: "Agora vamos falar sobre os Ranks. Dentro das categorias existir\xE3o
+        Ranks de carta por cor (o rank n\xE3o pode mudar) s\xE3o eles, em sequ\xEAncia
+        do mais fraco para o mais forte: Cinza, Azul claro, Roxo, Amarelo, Laranja,
+        Roxo escuro (quase preto). Ah... existe tamb\xE9m as qualidades da carta,
+        s\xE3o definidas por estrelas."
+      english: 'Now let''s talk about the Ranks. Within the categories there will
+        be Card Ranks by color (the rank cannot change) they are, in sequence from
+        the weakest to the strongest: Gray, Light Blue, Purple, Yellow, Orange, Dark
+        Purple (almost black). Ah... there are also the qualities of the card, they
+        are defined by stars.'
+  - actorName: 3 - John
+    actorSprite: {fileID: 2348307691353316420, guid: a6059c220af9cc444b3bf9f7e1769cef, type: 3}
+    sentence:
+      portuguese: "Elas podem ser upadas ou compradas com dinheiro real. Para aumentar
+        a qualidade, uma estrela custar\xE1 100 pontos de experi\xEAncia. Cada batalha
+        gerar\xE1 1pt de experi\xEAncia, +2 se vencer ou +1 se for empate."
+      english: They can be upgraded or purchased with real money. To increase the
+        quality, a star will cost 100 experience points. Each battle will generate
+        1pt experience, +2 if it wins or +1 if it's a draw.

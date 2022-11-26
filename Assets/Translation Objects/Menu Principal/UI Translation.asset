@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1005c56ae20f66d498dc6dd6c7a5f35b, type: 3}
+  m_Name: UI Translation
+  m_EditorClassIdentifier: 
+  texto: 
+  uiTexts:
+  - elemento: 0 - JOGAR
+    holdElemento: 
+    textos:
+      _portuguese: JOGAR
+      _english: PLAY
+  - elemento: 1 - CONFIG
+    holdElemento: 
+    textos:
+      _portuguese: CONFIG
+      _english: CONFIG
+  - elemento: 2 - CREDIT
+    holdElemento: 
+    textos:
+      _portuguese: CREDIT
+      _english: CREDIT
+  - elemento: 3 - SAIR
+    holdElemento: 
+    textos:
+      _portuguese: SAIR
+      _english: EXIT
+  - elemento: "4 - Resolu\xE7\xE3o"
+    holdElemento: 
+    textos:
+      _portuguese: "Resolu\xE7\xE3o"
+      _english: Resolution
+  - elemento: 5 - Qualidade
+    holdElemento: 
+    textos:
+      _portuguese: Qualidade
+      _english: Quality
+  - elemento: 6 - Volume (BGM)
+    holdElemento: 
+    textos:
+      _portuguese: Volume (BGM)
+      _english: Volume (BGM)
+  - elemento: 7 - Volume (SFX)
+    holdElemento: 
+    textos:
+      _portuguese: Volume (SFX)
+      _english: Volume (SFX)
+  - elemento: 8 - Idioma
+    holdElemento: 
+    textos:
+      _portuguese: Idioma
+      _english: Language
+  - elemento: 9 - Modo Janela
+    holdElemento: 
+    textos:
+      _portuguese: Modo Janela
+      _english: Window Mode
+  - elemento: "10 - Audiodescri\xE7\xE3o"
+    holdElemento: 
+    textos:
+      _portuguese: "Audiodescri\xE7\xE3o"
+      _english: Audio description
+  - elemento: "11 - Configura\xE7\xF5es"
+    holdElemento: 
+    textos:
+      _portuguese: "Configura\xE7\xF5es"
+      _english: Settings
+  - elemento: "12 - CR\xC9DITOS"
+    holdElemento: 
+    textos:
+      _portuguese: "CR\xC9DITOS"
+      _english: CREDITS
+  - elemento: "13 - Cr\xE9ditos"
+    holdElemento: 
+    textos:
+      _portuguese: "Cr\xE9ditos"
+      _english: Credits
+  - elemento: 14 - SAIR ?
+    holdElemento: 
+    textos:
+      _portuguese: SAIR ?
+      _english: EXIT ?
+  - elemento: 15 - Deseja Mesmo Sair ?
+    holdElemento: 
+    textos:
+      _portuguese: Deseja Mesmo Sair ?
+      _english: Do you really want to leave?
+  - elemento: 16 - Sim
+    holdElemento: 
+    textos:
+      _portuguese: Sim
+      _english: Yes
+  - elemento: "17 - N\xE3o"
+    holdElemento: 
+    textos:
+      _portuguese: "N\xE3o"
+      _english: No
+  - elemento: 18 - Save
+    holdElemento: 
+    textos:
+      _portuguese: Salvar
+      _english: Save
+  - elemento: "19 - Padr\xE3o"
+    holdElemento: 
+    textos:
+      _portuguese: "Padr\xE3o"
+      _english: Default
+  - elemento: 20 - Cancel
+    holdElemento: 
+    textos:
+      _portuguese: Cancelar
+      _english: Cancel
+  uiIdDelete: 0

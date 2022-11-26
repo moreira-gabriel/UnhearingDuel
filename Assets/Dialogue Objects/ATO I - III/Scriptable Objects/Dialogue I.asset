@@ -1,0 +1,291 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34b3149a058b15248b9d8331f6d01c87, type: 3}
+  m_Name: Dialogue I
+  m_EditorClassIdentifier: 
+  sentence: 
+  dialogues:
+  - actorName: "0 - Introdu\xE7\xE3o"
+    holdActorName: 
+    actorSprite: {fileID: 0}
+    sentence:
+      portuguese: "Sua jornada se inicia em uma visita a casa dos seus av\xF3s. Tarcio,
+        seu av\xF4, j\xE1 foi campe\xE3o mundial dessas batalhas, voc\xEA vai ao
+        encontro dele em busca de se tornar o melhor."
+      english: His journey begins with a visit to his grandparents' house. Tarcio,
+        your grandfather, was once world champion of these battles, you go to meet
+        him in search of becoming the best.
+  - actorName: "1 - Av\xF4"
+    holdActorName: 
+    actorSprite: {fileID: 6888145941637039665, guid: 535c082dbc8dd7d48a6cb958c6f12233, type: 3}
+    sentence:
+      portuguese: "Oh, bem-vindo minha crian\xE7a. N\xE3o esperava que chegasse t\xE3o
+        r\xE1pido."
+      english: Oh, welcome my child. I didn't expect it to arrive so quickly.
+  - actorName: "2 - Av\xF4"
+    holdActorName: 
+    actorSprite: {fileID: 6888145941637039665, guid: 535c082dbc8dd7d48a6cb958c6f12233, type: 3}
+    sentence:
+      portuguese: "Seus pais me avisaram que voc\xEA queria me ver. \xC9 sobre o
+        jogo U.D.?"
+      english: Your parents told me you wanted to see me. Is it about the U.D. game?
+  - actorName: "3 - Av\xF4"
+    holdActorName: 
+    actorSprite: {fileID: 6888145941637039665, guid: 535c082dbc8dd7d48a6cb958c6f12233, type: 3}
+    sentence:
+      portuguese: "Como eu poderia te ajudar na minha idade, minha crian\xE7a?"
+      english: How could I help you at my age, my child?
+  - actorName: "4 - Av\xF4"
+    holdActorName: 
+    actorSprite: {fileID: 6888145941637039665, guid: 535c082dbc8dd7d48a6cb958c6f12233, type: 3}
+    sentence:
+      portuguese: "Hum... Voc\xEA quer que eu te ensine a jogar (U.D.)..."
+      english: Hum... Do you want me to teach you how to play (U.D.)...
+  - actorName: "5 - Av\xF4"
+    holdActorName: 
+    actorSprite: {fileID: 6888145941637039665, guid: 535c082dbc8dd7d48a6cb958c6f12233, type: 3}
+    sentence:
+      portuguese: "Voc\xEA quer ser um jogador profissional?"
+      english: Do you want to be a professional player?
+  - actorName: "6 - Av\xF4"
+    holdActorName: 
+    actorSprite: {fileID: 6888145941637039665, guid: 535c082dbc8dd7d48a6cb958c6f12233, type: 3}
+    sentence:
+      portuguese: "Tudo bem, eu vou te ensinar. Mas antes de tudo, voc\xEA precisa
+        comprar o seu Deck. Acho que voc\xEA nunca viu um jogador profissional de
+        (U.D.) sem um deck de cartas, n\xE3o \xE9? HAHAHA."
+      english: Alright, I'll teach you. But first of all, you need to buy your Deck.
+        I don't think you've ever seen a professional (U.D.) player without a deck
+        of cards, have you? HAHA HA.
+  - actorName: "7 - Av\xF4"
+    holdActorName: 
+    actorSprite: {fileID: 6888145941637039665, guid: 535c082dbc8dd7d48a6cb958c6f12233, type: 3}
+    sentence:
+      portuguese: "V\xE1 at\xE9 a loja de conveni\xEAncias do John. Ele vende os
+        Decks para iniciantes. Agora lembre-se: O resultado das cartas \xE9 aleat\xF3rio."
+      english: 'Go to John''s convenience store. He sells Decks for beginners. Now
+        remember: The outcome of the cards is random.'
+  - actorName: "8 - Av\xF4"
+    holdActorName: 
+    actorSprite: {fileID: 6888145941637039665, guid: 535c082dbc8dd7d48a6cb958c6f12233, type: 3}
+    sentence:
+      portuguese: "Ei, espere um pouco!! Eu j\xE1 ia me esquecendo de perguntar,
+        voc\xEA tem dinheiro?"
+      english: Hey wait a minute!! I forgot to ask, do you have money?
+  - actorName: "9 - Av\xF4"
+    holdActorName: 
+    actorSprite: {fileID: 6888145941637039665, guid: 535c082dbc8dd7d48a6cb958c6f12233, type: 3}
+    sentence:
+      portuguese: "HAHAHA! Tome, elas n\xE3o s\xE3o t\xE3o caras. N\xE3o precisa
+        me pagar depois, s\xE3o um presente. \xC9 bom ter voc\xEA aqui conosco, minha
+        crian\xE7a."
+      english: HAHA HA! Here, they're not that expensive. You don't have to pay me
+        later, they're a gift. It's good to have you here with us, my child.
+  - actorName: "10 - Av\xF4"
+    holdActorName: 
+    actorSprite: {fileID: 6888145941637039665, guid: 535c082dbc8dd7d48a6cb958c6f12233, type: 3}
+    sentence:
+      portuguese: "Agora v\xE1. Volte depois de comprar o seu Deck, tenho outro presente
+        para lhe dar."
+      english: Now go. Come back after you buy your Deck, I have another gift for
+        you.
+  - actorName: "11 -Av\xF4"
+    holdActorName: 
+    actorSprite: {fileID: 6888145941637039665, guid: 535c082dbc8dd7d48a6cb958c6f12233, type: 3}
+    sentence:
+      portuguese: Ah, e seja bem-vindo a cidade de Cahill.
+      english: Oh, and welcome to Cahill City.
+  - actorName: 12 - John
+    holdActorName: 
+    actorSprite: {fileID: 2348307691353316420, guid: a6059c220af9cc444b3bf9f7e1769cef, type: 3}
+    sentence:
+      portuguese: "Seja bem-vindo a loja de conveni\xEAncias do John! Como posso
+        te ajudar?"
+      english: Welcome to John's Convenience Store! How can I help you?
+  - actorName: 13 - John
+    holdActorName: 
+    actorSprite: {fileID: 2348307691353316420, guid: a6059c220af9cc444b3bf9f7e1769cef, type: 3}
+    sentence:
+      portuguese: "Oh!! Mais um aspirante a jogador profissional de (U.D.). HAHAHAH!!
+        Venha, venha, tenho algo especial para voc\xEA."
+      english: Oh!! Another aspiring professional player from (U.D.). HAHAHAH!! Come,
+        come, I have something special for you.
+  - actorName: 14 - John
+    holdActorName: 
+    actorSprite: {fileID: 2348307691353316420, guid: a6059c220af9cc444b3bf9f7e1769cef, type: 3}
+    sentence:
+      portuguese: "Agora que estou olhando voc\xEA mais de perto, voc\xEA n\xE3o
+        \xE9 daqui \xE9?"
+      english: Now that I'm looking at you more closely, you're not from around here,
+        are you?
+  - actorName: 15 - John
+    holdActorName: 
+    actorSprite: {fileID: 2348307691353316420, guid: a6059c220af9cc444b3bf9f7e1769cef, type: 3}
+    sentence:
+      portuguese: "Ah... ent\xE3o voc\xEA \xE9 a crian\xE7a do TARCIO! Ele \xE9 uma
+        lenda do (U.D.)!! Ele realmente estava ansioso para que viesse HAHAHAH!"
+      english: Ah... so you are TARCIO's child! He is a (U.D.) legend!! He was really
+        looking forward to it coming HAHAHAH!
+  - actorName: 16 - John
+    holdActorName: 
+    actorSprite: {fileID: 2348307691353316420, guid: a6059c220af9cc444b3bf9f7e1769cef, type: 3}
+    sentence:
+      portuguese: "Mas enfim... de volta aos neg\xF3cios. Vou te dar um desconto
+        por ser a Crian\xE7a do TARCIO, ok? Mas n\xE3o se acostume com isso."
+      english: But anyway... back to business. I'll give you a discount for being
+        TARCIO's Child, okay? But don't get used to it.
+  - actorName: 17 - John
+    holdActorName: 
+    actorSprite: {fileID: 2348307691353316420, guid: a6059c220af9cc444b3bf9f7e1769cef, type: 3}
+    sentence:
+      portuguese: "Antes que voc\xEA abra seu Deck, j\xE1 ouviu falar sobre os Ranks
+        e categorias?"
+      english: Before you open your Deck, have you heard about Ranks and Categories?
+  - actorName: "18 - Av\xF4"
+    holdActorName: 
+    actorSprite: {fileID: 6888145941637039665, guid: 535c082dbc8dd7d48a6cb958c6f12233, type: 3}
+    sentence:
+      portuguese: "Bem-vindo de volta minha crian\xE7a. Conseguiu comprar o seu primeiro
+        Deck? Oh... Parece que n\xE3o foi t\xE3o ruim assim. Parab\xE9ns! Hahaha."
+      english: Welcome back my child. Did you manage to buy your first Deck? Oh...
+        Looks like it wasn't that bad. Congratulations! Haha ha.
+  - actorName: "19 - Av\xF4"
+    holdActorName: 
+    actorSprite: {fileID: 6888145941637039665, guid: 535c082dbc8dd7d48a6cb958c6f12233, type: 3}
+    sentence:
+      portuguese: "Isso me fez lembrar da primeira vez que comprei o meu Deck. Ao
+        longo da minha jornada como jogador profissional, eu juntei muitas cartas
+        de qualidade alta, era de deixar meus advers\xE1rios com inveja hahaha."
+      english: It reminded me of the first time I bought my Deck. Throughout my journey
+        as a professional player, I have collected many high quality cards, it was
+        enough to make my opponents jealous hahaha.
+  - actorName: "20 - Av\xF4"
+    holdActorName: 
+    actorSprite: {fileID: 6888145941637039665, guid: 535c082dbc8dd7d48a6cb958c6f12233, type: 3}
+    sentence:
+      portuguese: "AH... aqueles eram bons tempos. Mas o homem n\xE3o vive do seu
+        passado. Enfim... Vamos ao seu treinamento. O que o John j\xE1 te falou a
+        respeito do (N.D.D)?"
+      english: AH... those were good times. But man does not live on his past. Anyway...
+        Let's get to your training. What has John told you about (N.D.D)?
+  - actorName: "21 - Av\xF4"
+    holdActorName: 
+    actorSprite: {fileID: 6888145941637039665, guid: 535c082dbc8dd7d48a6cb958c6f12233, type: 3}
+    sentence:
+      portuguese: "Ent\xE3o voc\xEA ainda n\xE3o ouviu sobre as regras do jogo. Entendo.
+        Bom, como ele j\xE1 disse, o deck de batalha poder\xE1 conter at\xE9 40 cartas.
+        O jogador inicia com 6 cartas e pode colocar 1 carta tipo soldado e mais
+        1 tipo suporte/equipamento por cada turno na mesa."
+      english: So you still haven't heard about the rules of the game. I understand.
+        Well, as he already said, the battle deck can contain up to 40 cards. The
+        player starts with 6 cards and can place 1 soldier type card and 1 more support/equipment
+        type for each turn on the table.
+  - actorName: "22 - Av\xF4"
+    holdActorName: 
+    actorSprite: {fileID: 6888145941637039665, guid: 535c082dbc8dd7d48a6cb958c6f12233, type: 3}
+    sentence:
+      portuguese: "O turno ter\xE1 limite de 60 segundos para que voc\xEA tome alguma
+        a\xE7\xE3o. A batalha inteira ter\xE1 limite de 99 turnos. Caso voc\xEA precise
+        de alguma carta al\xE9m do seu deck, existe o sistema de cava. O limite de
+        cava \xE9 de 1 carta por turno. Mas voc\xEA s\xF3 pode ter 10 cartas na m\xE3o.
+        Ao cavar a 11\xAA carta, alguma outra dever\xE1 ser lan\xE7ada em jogo ou
+        ir\xE1 para o lixo."
+      english: The turn will be limited to 60 seconds for you to take any action.
+        The entire battle will be limited to 99 turns. In case you need any cards
+        in addition to your deck, there is the cava system. The pit limit is 1 card
+        per turn. But you can only have 10 cards in your hand. When digging up the
+        11th card, some other card must be thrown into play or it will go to the
+        trash.
+  - actorName: "23 - Av\xF4"
+    holdActorName: 
+    actorSprite: {fileID: 6888145941637039665, guid: 535c082dbc8dd7d48a6cb958c6f12233, type: 3}
+    sentence:
+      portuguese: "Ao acabar o deck, o jogo n\xE3o finaliza. Voc\xEA apenas n\xE3o
+        ter\xE1 mais cartas extras para usar, mas as que est\xE3o em jogo poder\xE3o
+        continuar sendo usadas."
+      english: When finishing the deck, the game does not end. You just won't have
+        any extra cards to use, but the ones that are in play can continue to be
+        used.
+  - actorName: "24 - Av\xF4"
+    holdActorName: 
+    actorSprite: {fileID: 6888145941637039665, guid: 535c082dbc8dd7d48a6cb958c6f12233, type: 3}
+    sentence:
+      portuguese: "Bom... acho que j\xE1 chega por hoje. Conversamos mais sobre as
+        regras depois. N\xE3o pense que eu esqueci do seu presente."
+      english: Well... I think that's enough for today. We talk more about the rules
+        later. Don't think I forgot your gift.
+  - actorName: "25 - Av\xF4"
+    holdActorName: 
+    actorSprite: {fileID: 6888145941637039665, guid: 535c082dbc8dd7d48a6cb958c6f12233, type: 3}
+    sentence:
+      portuguese: "Isso foi o que restou do meu legado... E agora estou passando
+        ele pra voc\xEA."
+      english: That's what's left of my legacy... And now I'm passing it on to you.
+  - actorName: "26 - Av\xF4"
+    holdActorName: 
+    actorSprite: {fileID: 6888145941637039665, guid: 535c082dbc8dd7d48a6cb958c6f12233, type: 3}
+    sentence:
+      portuguese: "N\xE3o me entenda mal, n\xE3o estou colocando expectativas em
+        voc\xEA. Mas como voc\xEA pode ver, elas est\xE3o gastas. N\xE3o fique triste.
+        \xC9 poss\xEDvel restaur\xE1-las. Mas n\xE3o faremos isso agora, descanse.
+        Sua av\xF3 tamb\xE9m est\xE1 com saudades de voc\xEA. Amanh\xE3 eu te digo
+        o que \xE9 preciso fazer para restaur\xE1-las."
+      english: Don't get me wrong, I'm not putting expectations on you. But as you
+        can see, they are worn out. Don't be sad. It is possible to restore them.
+        But we won't do that now, rest. Your grandmother is missing you too. Tomorrow
+        I'll tell you what needs to be done to restore them.
+  - actorName: "27 - Av\xF4"
+    holdActorName: 
+    actorSprite: {fileID: 6888145941637039665, guid: 535c082dbc8dd7d48a6cb958c6f12233, type: 3}
+    sentence:
+      portuguese: "Bom dia! Oh... parece que algu\xE9m est\xE1 bastante ansioso para
+        restaurar as cartas raras HAHAHA! Voc\xEA conseguiu dormir, minha crian\xE7a?
+        hahaha"
+      english: Good Morning! Oh... looks like someone is quite eager to restore the
+        rare cards HAHAHA! Did you manage to sleep, my child? haha ha
+  - actorName: "28 - Av\xF4"
+    holdActorName: 
+    actorSprite: {fileID: 6888145941637039665, guid: 535c082dbc8dd7d48a6cb958c6f12233, type: 3}
+    sentence:
+      portuguese: "Chega de enrola\xE7\xE3o, vamos direto ao ponto. Para restaurar
+        as cartas voc\xEA precisa encontrar a restauradora Cida. Eu nunca a conheci
+        e nem sei onde ela pode estar, voc\xEA ter\xE1 que procurar por ela. Pergunte
+        \xE0s pessoas na cidade."
+      english: Enough rambling, let's get straight to the point. To restore the cards
+        you need to find the restorer Cida. I've never met her and I don't even know
+        where she might be, you'll have to look for her. Ask people in town.
+  - actorName: "29 - Av\xF4"
+    holdActorName: 
+    actorSprite: {fileID: 6888145941637039665, guid: 535c082dbc8dd7d48a6cb958c6f12233, type: 3}
+    sentence:
+      portuguese: "E cuidado com os duelistas encrenqueiros... na verdade, talvez
+        seja at\xE9 bom voc\xEA treinar com eles. Tome, esse \xE9 o manual de como
+        se jogar (N.N.D.)."
+      english: And beware of troublesome duelists... in fact, you might even be better
+        off training with them. Here, this is the manual on how to play (N.N.D.).
+  - actorName: "30 - Av\xF4"
+    holdActorName: 
+    actorSprite: {fileID: 6888145941637039665, guid: 535c082dbc8dd7d48a6cb958c6f12233, type: 3}
+    sentence:
+      portuguese: "Dentro dele cont\xE9m todas as informa\xE7\xF5es que j\xE1 te
+        foram ensinadas e outras mais que ir\xE1 precisar aprender. Agora v\xE1,
+        esperarei o seu retorno."
+      english: Inside it contains all the information that you have already been
+        taught and others that you will need to learn. Now go, I will wait for your
+        return.
+  - actorName: 31 - Procure por Cida na cidade
+    holdActorName: 
+    actorSprite: {fileID: 0}
+    sentence:
+      portuguese: Procure por Cida na cidade...
+      english: Search for Cida in the city...
+  dialogueIdDelete: 28

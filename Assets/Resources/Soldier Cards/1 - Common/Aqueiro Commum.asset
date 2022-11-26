@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f35a69ef3908ebf479a8923df415bea0, type: 3}
+  m_Name: Aqueiro Commum
+  m_EditorClassIdentifier: 
+  cardNamePortuguese: 
+  cardNameEnglish: 
+  attackAttribute: 0
+  resistanceAttribute: 0
+  defenseAttribute: 0
+  healthAttribute: 0
+  descriptionPortuguese: 
+  descriptionEnglish: 
+  anotherCardIsNeeded: 0
+  cardSupport: {fileID: 0}
+  cardPrefab: {fileID: 0}
+  textureField: {fileID: 0}
+  frameField: {fileID: 0}
+  cardType: 0
